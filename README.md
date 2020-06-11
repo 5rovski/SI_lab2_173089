@@ -13,7 +13,13 @@
 ....
 
 ### Тест случаи според критериумот Every branch
-....
+1. user == null
+
+2. username=nikola, email=nikola@finki.mk, AllUsers да не го содржи "nikola"
+
+3. username == null (останатите параметри се било какви)
+
+4. username=nikola, email=nikola@finki, AllUsers да не го содржи "nikola"
 
 ### Објаснување на напишаните unit tests
 ... ...
